@@ -1,3 +1,4 @@
+
 class PersonasController < ApplicationController
   before_action :set_persona, only: [:show, :edit, :update, :destroy]
 
