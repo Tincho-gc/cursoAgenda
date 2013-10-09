@@ -5,7 +5,7 @@ class PersonasController < ApplicationController
   # GET /personas
   # GET /personas.json
   def index
-    @personas = Persona.all
+    @personas = Persona.order('apellido').all
   end
 
   # GET /personas/1
